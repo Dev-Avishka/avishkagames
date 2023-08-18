@@ -20,7 +20,15 @@ function About() {
         continue to push the boundaries of what's possible in the gaming realm. Join me on this exciting 
         journey as we explore new worlds and redefine the art of gaming together.
       </p>
-      
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
     </div>
   );
 }
