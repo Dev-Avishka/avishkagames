@@ -28,10 +28,7 @@ function App() {
     <div>
       <Navigation onPageChange={handlePageChange} />
       {content}
-      <br />
-      <br />
-      <br />
-      <br />
+
       <center>
         <h3>©2023 Dev Avishka</h3>
       </center>

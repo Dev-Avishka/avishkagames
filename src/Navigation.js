@@ -11,10 +11,10 @@ function Navigation({ onPageChange }) {
           </a>
         </li>
         <li className="nav-item" onClick={() => onPageChange('about')}>
-          <a>About</a>
+          <a >About</a>
         </li>
         <li className="nav-item" onClick={() => onPageChange('games')}>
-          <a>Games</a>
+          <a >Games</a>
         </li>
       </ul>
     </div>
