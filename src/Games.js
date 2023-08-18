@@ -19,6 +19,13 @@ function Games() {
           <a href='https://devavishka.itch.io/shattered-reflections'><img src={sr} alt="Shattered Reflections" className="image-link" /></a>
         </h3>
       </center>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
     </div>
   );
 }
