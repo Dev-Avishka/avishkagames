@@ -1,9 +1,8 @@
 import React from 'react';
 import './styles.css';
-import home from './home.png';
+
 import bm from './bm.png'
 import ftb from './ftb.png'
-import sr from './sr.png'
 
 function Games() {
   return (
@@ -16,7 +15,7 @@ function Games() {
         <h3>
           <a href='https://devavishka.itch.io/blender-man'><img src={bm} alt="Blender Man" className="image-link" /></a>
           <a href='https://devavishka.itch.io/find-the-bun'><img src={ftb} alt="Find the Bun" className="image-link" /></a>
-          <a href='https://devavishka.itch.io/shattered-reflections'><img src={sr} alt="Shattered Reflections" className="image-link" /></a>
+          <button></button>
         </h3>
       </center>
       <br></br>
