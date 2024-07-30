@@ -1,6 +1,6 @@
 import React from 'react';
 import './styles.css';
-import home from './home.png';
+import home from './images/home.png';
 
 function ImageWithText() {
   return (
@@ -14,7 +14,7 @@ function ImageWithText() {
           developer with 2x years of experience in Java and C#.
           I am already 16 years old and I like to program in OOP 
           languages. My most favourite language is Java.
-          <h4>I am developing Shattered Memories right now</h4>
+          <h4>I am developing Shattered Memories. </h4>
         </p>
       </div>
     </div>

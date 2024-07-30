@@ -18,7 +18,7 @@ function App() {
   let content = null;
 
   if (currentPage === 'home') {
-    content = <Homepg />; // Corrected the component name
+    content = <Homepg />;
   } else if (currentPage === 'about') {
     content = <About />;
   } else if (currentPage === 'games') {
