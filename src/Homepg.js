@@ -3,8 +3,8 @@ import React from 'react';
 import './styles.css';
 import Games from './Games';
 import ImageWithText from './ImageWithText';
-import youtube from './youtube.png'
-import insta from './insta.png'
+import youtube from './images/youtube.png'
+import insta from './images/insta.png'
 function Homepg() {
   return (
     <div>

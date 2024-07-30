@@ -1,8 +1,8 @@
 import React from 'react';
 import './styles.css';
 
-import bm from './bm.png'
-import ftb from './ftb.png'
+import bm from './images/bm.png'
+import ftb from './images/ftb.png'
 
 function Games() {
   return (
