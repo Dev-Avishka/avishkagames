@@ -15,7 +15,7 @@ function Games() {
         <h3>
           <a href='https://devavishka.itch.io/blender-man'><img src={bm} alt="Blender Man" className="image-link" /></a>
           <a href='https://devavishka.itch.io/find-the-bun'><img src={ftb} alt="Find the Bun" className="image-link" /></a>
-          <button></button>
+          
         </h3>
       </center>
       <br></br>
