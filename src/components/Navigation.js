@@ -5,16 +5,16 @@ function Navigation({ onPageChange }) {
     <div className="navbar">
       <ul className="nav-list">
         <li className="nav-item">
-          <a href="#" onClick={(e) => { e.preventDefault(); onPageChange('home'); }}>Home</a>
+          <button className="nav-button" onClick={() => onPageChange('home')}>Home</button>
         </li>
         <li className="nav-item">
-          <a href="#" onClick={(e) => { e.preventDefault(); onPageChange('about'); }}>About</a>
+          <button className="nav-button" onClick={() => onPageChange('about')}>About</button>
         </li>
         <li className="nav-item">
-          <a href="#" onClick={(e) => { e.preventDefault(); onPageChange('games'); }}>Games</a>
+          <button className="nav-button" onClick={() => onPageChange('games')}>Games</button>
         </li>
         <li className="nav-item">
-          <a href="#" onClick={(e) => { e.preventDefault(); onPageChange('Devlog'); }}>Devlogs</a>
+          <button className="nav-button" onClick={() => onPageChange('Devlog')}>Devlogs</button>
         </li>
       </ul>
     </div>
