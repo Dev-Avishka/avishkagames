@@ -2,7 +2,7 @@
 .navbar {
   background-color: #333;
   color: #fff;
-  padding: 1rem;
+  padding: 0.5rem;
 }
 
 /* styles.css */
@@ -21,22 +21,35 @@
 }
 
 .nav-button {
+  position: relative;
   background: none;
   border: none;
   color: inherit;
   cursor: pointer;
   font: inherit;
-  margin-left: 10px;
-  margin-right:10px;
+  margin-left: 5px;
+  margin-right: 5px;
   font-size: 20px;
   text-decoration: none;
   padding: 0;
 }
 
-.nav-button:hover {
-  cursor:pointer;
-  text-decoration: none;
+.nav-button::before {
+  content: '';
+  position: absolute;
+  left: 50%;
+  bottom: -2px; /* Adjust this value to move the underline closer or further from the text */
+  width: 0;
+  height: 2px; /* Adjust this value to change the thickness of the underline */
+  background: currentColor; /* Uses the text color for the underline */
+  transition: width 0.3s ease, left 0.3s ease; /* Adjust timing as needed */
 }
+
+.nav-button:hover::before {
+  width: 100%;
+  left: 0;
+}
+
 
 .image-container {
   position: relative;
@@ -115,6 +128,16 @@
 }
 .post img{
   max-width: 500px;
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
   height: auto;
 }
 
+.game-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}

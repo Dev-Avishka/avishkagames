@@ -2,6 +2,7 @@ import React from 'react';
 import './styles.css';
 import bm from './images/bm.png'
 import ftb from './images/ftb.png'
+import GameBox from './components/gamebox';
 
 function Games() {
   return (
@@ -11,10 +12,9 @@ function Games() {
         <br></br>
         <br></br>
         <br></br>
-        <h3>
-          
-          <a href='https://devavishka.itch.io/blender-man'><img src={bm} alt="Blender Man" className="image-link" /></a>
-          <a href='https://devavishka.itch.io/find-the-bun'><img src={ftb} alt="Find the Bun" className="image-link" /></a>
+        <h3 className='game-container'>
+          <GameBox alt="Blender Man" link="https://devavishka.itch.io/blender-man" img={bm} / >
+          <GameBox alt="Find the Bun" link="https://devavishka.itch.io/find-the-bun" img={ftb} / >
           
         </h3>
       </center>
