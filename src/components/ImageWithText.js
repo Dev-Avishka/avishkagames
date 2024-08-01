@@ -1,6 +1,6 @@
 import React from 'react';
-import './styles.css';
-import home from './images/home.png';
+import '../styles.css';
+import home from '../images/home.png';
 
 function ImageWithText() {
   return (

@@ -1,6 +1,6 @@
 import React from 'react';
 import './styles.css';
-
+import GameBox from './components/gamebox';
 import bm from './images/bm.png'
 import ftb from './images/ftb.png'
 

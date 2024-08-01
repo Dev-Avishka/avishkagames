@@ -2,10 +2,11 @@
 import React, { useState } from 'react';
 import './App.css';
 import About from './About';
-import Navigation from './Navigation';
+import Navigation from './components/Navigation';
 import Homepg from './Homepg'; // Corrected the import
 import Games from './Games';
 import Devlog from './Devlog';
+import Coffee from './components/coffee';
 
 
 function App() {
@@ -34,17 +35,7 @@ function App() {
 
       <center>
         <h3>©2024 Dev Avishka </h3>
-        <a
-          href="https://www.buymeacoffee.com/DevAvishka"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <img
-            src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png"
-            alt="Buy Me A Coffee"
-            style={{ height: '60px', width: '217px' }}
-          />
-        </a>
+        <Coffee />
       </center>
     </div>
   );

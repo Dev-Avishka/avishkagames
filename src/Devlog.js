@@ -1,6 +1,6 @@
 import React from 'react';
-import Post from './Post';
-import home from './home.png'
+import Post from './components/Post';
+import home from './images/home.png'
 function Devlog(){
     return(
         <div>

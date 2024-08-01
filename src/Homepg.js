@@ -2,7 +2,7 @@
 import React from 'react';
 import './styles.css';
 import Games from './Games';
-import ImageWithText from './ImageWithText';
+import ImageWithText from './components/ImageWithText';
 import youtube from './images/youtube.png'
 import insta from './images/insta.png'
 function Homepg() {
