@@ -10,7 +10,7 @@ function Devlog() {
         <br></br>
         <br></br>
         <br></br>
-        <Post title="Update 1" body="Added basics" image={imageUrl} />
+        <Post title="Update 1" body="Added basics" image={imageUrl} alt={"image"}/>
       </center>
     </div>
   );
