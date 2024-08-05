@@ -15,6 +15,7 @@ function Homepg() {
       <br />
       <center>
         <Games />
+
       </center>
       <br />
       <br />

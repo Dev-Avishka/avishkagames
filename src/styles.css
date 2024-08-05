@@ -138,4 +138,8 @@
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
+  justify-items: grid;
+}
+.gamebox{
+  margin: 30px;
 }
