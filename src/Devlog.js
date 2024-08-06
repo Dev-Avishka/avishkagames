@@ -2,7 +2,7 @@ import React from 'react';
 import Post from './components/Post';
 
 function Devlog() {
-  const imageUrl = 'https://drive.google.com/uc?export=view&id=1XterZpW-PbsaGLPV5egW6Rzi38MikeOX';
+  const imageUrl = 'https://1drv.ms/i/c/a1235a42f61ed5f0/Edgw0YFIvBFKsUsooldpHewBq13nUrDps-QRuj1eARDM-w?e=2scMES';
   return (
     <div>
       <center>
